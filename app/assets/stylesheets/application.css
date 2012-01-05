@@ -1,0 +1,57 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+
+			body{ background:url('/bg.jpg') no-repeat;font-family: 'Comfortaa', cursive;font-size:20px;color:white;}
+
+#boton {
+  font-size:16px;
+  height: 51px;
+  width:120px;
+  margin-left: 180px;
+  margin-top: -40px;
+  border-radius:10px;
+}
+.todo{
+  margin-left:25%;
+  margin-top: 15px; 
+  padding: 25px;
+  	background-color: black;
+/* 	opacity: 0.6; */
+/* 	filter:alpha(opacity=60); */
+	width: 700px;
+	border: solid 2px #FFFFFF;
+	border-radius:10px;
+	z-index: -1;
+}
+
+#startpoint {
+  border: 1px solid #CBCBCB;
+  padding: 6px;
+  color: gray;
+  font-size: 16px;
+  background-color: #FCFCFC;
+  -moz-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 450px;
+  
+}
+
+#endpoint {
+  border: 1px solid #CBCBCB;
+  padding: 6px;
+  color: gray;
+  font-size: 16px;
+  background-color: #FCFCFC;
+  -moz-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+   width: 450px;
+}
